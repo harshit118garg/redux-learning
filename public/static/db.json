@@ -1,0 +1,30 @@
+{
+  "accounts": [
+    {
+      "id": 0,
+      "name": "Item A",
+      "amount": 150
+    },
+    {
+      "id": 1,
+      "name": "Item B",
+      "amount": 200
+    },
+    {
+      "id": 2,
+      "name": "Item C",
+      "amount": 300
+    },
+    {
+      "id": 3,
+      "name": "Item D",
+      "amount": 100
+    }
+  ],
+  "bonus": [
+    { "id": 0, "points": 50 },
+    { "id": 1, "points": 60 },
+    { "id": 2, "points": 55 },
+    { "id": 3, "points": 65 }
+  ]
+}
