@@ -1,14 +1,8 @@
 import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 
-const Account = () => {
-  const [account, setAccount] = useState({ amount: 0 });
+const Account = ({account, increment, decrement, incrementByAmount}) => {
   const [value, setValue] = useState(0);
-
-  const increment = () => setAccount({ amount: account.amount + 1 });
-  const decrement = () => setAccount({ amount: account.amount - 1 });
-  const incrementByAmount = (value) =>
-    setAccount({ amount: account.amount + Number(value) });
 
   return (
     <>

@@ -2,9 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { Button } from "react-bootstrap";
 
-const Bonus = () => {
-  const [bonus, setBonus] = useState({ points: 0 });
-  const incrementBonus = () => setBonus({ points: bonus.points + 1 });
+const Bonus = ({ bonus, incrementBonus }) => {
   return (
     <>
       <h2 className="display-3">Bonus Component</h2>
