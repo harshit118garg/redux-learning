@@ -1,14 +1,19 @@
 import React from "react";
 import { useState } from "react";
 import { Button } from "react-bootstrap";
+import { useSelector, useDispatch } from "react-redux";
+import { incrementBonus } from "../redux/actions";
 
-const Bonus = ({ bonus, incrementBonus }) => {
+const Bonus = () => {
+  const points = useSelector((state) => state.bonus.points);
+  const dispatch = useDispatch();
+
   return (
     <>
       <h2 className="display-3">Bonus Component</h2>
-      <h3 className="h3">Total Bonus : {bonus.points}</h3>
+      <h3 className="h3">Total Bonus : {points}</h3>
       <div className="d-flex gap-2 justify-content-center">
-        <Button onClick={incrementBonus}>Increment +</Button>
+        <Button onClick={() => dispatch(incrementBonus())}>Increment +</Button>
       </div>
     </>
   );
