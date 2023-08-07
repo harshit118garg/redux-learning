@@ -22,9 +22,55 @@
     }
   ],
   "bonus": [
-    { "id": 0, "points": 50 },
-    { "id": 1, "points": 60 },
-    { "id": 2, "points": 55 },
-    { "id": 3, "points": 65 }
+    {
+      "id": 0,
+      "points": 50
+    },
+    {
+      "id": 1,
+      "points": 60
+    },
+    {
+      "id": 2,
+      "points": 55
+    },
+    {
+      "id": 3,
+      "points": 65
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 30,
+      "email": "john.doe@example.com",
+      "address": "123 Main Street, City",
+      "phone": "555-1234"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "age": 25,
+      "email": "jane.smith@example.com",
+      "address": "456 Park Avenue, Town",
+      "phone": "555-5699"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "age": "36",
+      "email": "bob.johnson@example.com",
+      "address": "789 Oak Road, Village",
+      "phone": "555-9876"
+    },
+    {
+      "id": 4,
+      "name": "Alice Brown",
+      "age": 22,
+      "email": "alice.brown@example.com",
+      "address": "101 Elm Street, Hamlet",
+      "phone": "555-4321"
+    }
   ]
 }
