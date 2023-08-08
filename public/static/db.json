@@ -18,7 +18,17 @@
     {
       "id": 3,
       "name": "Item D",
-      "amount": 100
+      "amount": 320
+    },
+    {
+      "name": "Item E",
+      "amount": "250",
+      "id": 4
+    },
+    {
+      "name": "Item K",
+      "amount": 260,
+      "id": 5
     }
   ],
   "bonus": [
