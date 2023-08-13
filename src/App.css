@@ -1,5 +1,11 @@
-#root {
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cardRow {
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,0 +1,56 @@
+{
+  "phones": [
+    {
+      "id": 1,
+      "brand": "Apple",
+      "model": "iPhone 12",
+      "price": 799.99,
+      "description": "The latest iPhone with a stunning Super Retina XDR display.",
+      "image": "iphone_12.jpg"
+    },
+    {
+      "id": 2,
+      "brand": "Samsung",
+      "model": "Galaxy S21",
+      "price": 699.99,
+      "description": "Experience the next level of power with the Galaxy S21.",
+      "image": "galaxy_s21.jpg"
+    },
+    {
+      "id": 3,
+      "brand": "Google",
+      "model": "Pixel 5",
+      "price": 599.99,
+      "description": "Capture the perfect shot every time with Pixel 5's AI-powered camera.",
+      "image": "pixel_5.jpg"
+    },
+    {
+      "id": 4,
+      "brand": "OnePlus",
+      "model": "8 Pro",
+      "price": 749.99,
+      "description": "Experience fast and smooth performance with the OnePlus 8 Pro.",
+      "image": "oneplus_8_pro.jpg"
+    }
+  ],
+  "cart": [
+    {
+      "id": 2,
+      "brand": "Samsung",
+      "price": 699.99,
+      "quantity": 4
+    },
+    {
+      "id": 3,
+      "brand": "Google",
+      "price": 599.99,
+      "quantity": 3
+    },
+    {
+      "id": 4,
+      "brand": "OnePlus",
+      "price": 749.99,
+      "quantity": 3
+    }
+  ]
+}
